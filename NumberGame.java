@@ -8,7 +8,7 @@ public class NumberGame
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
 
-        int lowerBound = 1;
+        int lowerBound = 10;
         int upperBound = 100;
         int targetNumber = random.nextInt(upperBound - lowerBound + 1) + lowerBound; //setting of target number
 
